@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
+  <title>My Countup</title>
+  <meta name="description" content="My Countup">
+  <meta property="og:title" content="My Countup">
+  <meta property="og:description" content="My Countup">
+  <meta property="og:image"
+    content="../../commonninja-screenshots.s3.us-west-2.amazonaws.com/screenshots/tmp/1750902933971-a5071f82-d8ac-4b71-93e1-b7b586266c7a_countup.jpg">
+  <script src="../../cdn.commoninja.com/sdk/latest/commonninja.js" defer=""></script>
+  <meta name="next-head-count" content="9">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <style></style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+    media="print" onload="this.media='all';">
+  <style></style>
+  <script id="libs" data-nscript="beforeInteractive">
+    var pathname = window.location.pathname;
+    var href = window.location.href;
+    var isWix = pathname.indexOf('/wix/') >= 0;
+    if (isWix) {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'https://static.parastorage.com/services/js-sdk/1.537.0/js/wix.min.js';
+      document.getElementsByTagName('head')[0].appendChild(script);
+    }
+
+    // Google GTM
+    if (!isWix && href.indexOf('commoninja.com') >= 0 && pathname.indexOf('/viewer/') < 0) {
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-WJGB8PP');
+    }
+
+    // Zendesk and Mixpanel
+    if (pathname.indexOf('/editor') >= 0 && pathname.indexOf('/editor/preview') < 0) {
+      // For non white-label
+      // if (pathname.indexOf('/wl/') < 0) {
+      // 	var head = document.getElementsByTagName('head')[0];
+      // 	var js = document.createElement('script');
+      // 	js.id = 'ze-snippet';
+      // 	js.type = 'text/javascript';
+      // 	js.src = 'https://static.zdassets.com/ekr/snippet.js?key=6adb70d9-3972-4ba3-b014-055459b0a013';
+      // 	js.onload = function() {
+      // 		zE('webWidget', 'helpCenter:setSuggestions', { search: '' });
+      // 	};
+      // 	head.appendChild(js);
+      // }
+
+      // Mixpanel
+      (function (f, b) {
+        if (!b.__SV) {
+          var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+            function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+            for (h = 0; h < i.length; h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++)b(j[c]); return d }; b._i.push([e, f, c])
+          }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+            MIXPANEL_CUSTOM_LIB_URL : "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+        }
+      })(document, window.mixpanel || []);
+      mixpanel.init("49aed1723e321fc7cb57fe4b906a20f5", { batch_requests: true });
+    }
+  </script><noscript data-n-css=""></noscript>
+  <script defer="" nomodule=""
+    src="../../www.commoninja.com/apps/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/608ef6ec.edf8bd865f083dc0.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/2e543956.25482971b6498001.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/d37017dc.ad8245c374934fe9.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/2b2dcaf8.cfd1d4dc404e03f8.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/81630.c922a3aa059550de.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/85705.726e882a86fbf05f.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/81775.9fab2b3bc38f2721.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/91020.f6246d0c64951de7.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/30494.211ecbf8158af4e6.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/27768.6e6f81db45173e8e.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/60362.d22bd02b3d92b766.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/95890.2846eb24fef44419.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/5973.53c164fd5365f4a7.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/87431.ddb66f10f704b86e.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/58100.bab51df368d8e811.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/58926.b61180437eb0162f.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/5649.a92bc6f26a34168f.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/46379.8a8e17668256b1ed.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/96786.65cd40972b956798.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/2549.3793bc491b553094.js"></script>
+  <script defer="" src="../../www.commoninja.com/apps/_next/static/chunks/2294.386f2515eb357b57.js"></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/webpack-f5e9f60e625444a9.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/framework-6561525190218be8.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/main-62ca79e4d07efa26.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/pages/_app-13e2ac95e88b4ad5.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/18528-bbabdfb7a146967e.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/64527-0c75955b83184a83.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/15655-b0421579d4e1f9e3.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/26069-2fa219794b06c37b.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/55219-92024e4c808cc095.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/78609-e791e155423120d4.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/22659-21ff9c731ee64763.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/16925-db62e877924f0131.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/34750-e82b03e1262ad5d1.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/chunks/pages/lp/%5B...pathname%5D-9191641e1854217f.js"
+    defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/HhZRVIatEa5dKHPebeSsR/_buildManifest.js" defer=""></script>
+  <script src="../../www.commoninja.com/apps/_next/static/HhZRVIatEa5dKHPebeSsR/_ssgManifest.js" defer=""></script>
+</head>
+
+<body>
+  <div id="__next"></div>
+  <script id="__NEXT_DATA__"
+    type="application/json">{"props":{"pageProps":{"params":{"pathname":["156d4afc-76d2-4a5b-978f-cd1cd682f17a"],"app":"countup"},"pluginData":{"guid":"a5071f82-d8ac-4b71-93e1-b7b586266c7a","galleryId":"156d4afc-76d2-4a5b-978f-cd1cd682f17a","projectId":"8e5b7740-34d0-4cb2-bac9-5edc7bb17f71","name":"My Countup","description":null,"status":"published","type":"countup","previewImage":"https://commonninja-screenshots.s3.us-west-2.amazonaws.com/screenshots//tmp/1750902933971-a5071f82-d8ac-4b71-93e1-b7b586266c7a_countup.jpg","modelVersion":1,"data":{"settings":{"showTitle":true,"showCards":true,"showColon":true,"showContainer":true,"showDays":true,"showHours":true,"showLabels":true,"showMinutes":true,"showSeconds":true,"showPostContainer":true,"timezone":"Asia/Dhaka"},"styles":{"mainWrapper":{},"title":{"color":"#59db38"},"fontId":"default","layoutId":"default","customCSS":"","layout":"layout-4","skinId":0,"animationType":"tick","container":{},"containerBorderRadius":10,"cards":{},"cardsBg":["#4f4f4f","#434343"],"cardsBorderColor":"","cardsBorderRadius":10,"cardsBorderWidth":0,"colonColor":"#434343","labels":{"color":"#59db38"},"labels2":{"color":"#59db38","backgroundColor":"#363636"},"numbers":{"color":"#a5bff3"},"separatorColor":"","containerBg":[],"postContainer":{},"postContainerBg":["#363636","#4f4f4f"],"postDescription":{"color":"#6adf4c"},"postTitle":{"color":"#59db38"},"countdownSize":"big","description":{"color":"#6adf4c"},"button":{"color":"#363636","backgroundColor":"#a5bff3"},"postButton":{"color":"#363636","backgroundColor":"#a5bff3"}},"content":{"countdownType":"count-to-date","timerTitle":"Time Gone By Since 26 January 2020","daysLabel":"","hoursLabel":"","minutesLabel":"","secondsLabel":"","expDate":1580004000000,"evergreenExpDate":{"expires":false,"date":1750038577358},"timerDays":1,"timerHours":1,"timerMinutes":30,"timerSeconds":59,"postCountdownType":"message","showPostConfetti":true,"showPostCountdown":true,"postTitle":"Countdown Complete!","postDescription":"The wait is over! Our countdown timer has reached zero, and it's time to get started. Let the excitement begin!","postButtonLink":"","postButtonText":""},"colorScheme":{"text":"#59db38ff","background":"#363636","accent":"#A5BFF3"}},"planFeatures":{"trial":false,"numberOfInstances":1,"websites":1,"numberOfViewsPerMonth":300,"collaborators":0,"adsRemoval":false,"customSlug":false,"customDomain":false,"premiumSupport":false,"aiFieldEnhancer":false,"integrations":false,"advancedStyles":false,"customStyles":false,"customCSS":false,"localization":false,"apiAccess":false,"numberOfItems":5,"numberOfAIEditorTokens":3,"numberOfAIImageTokens":1,"numberOfBytesInStorage":50000000,"fileSizeLimit":5,"imageUploads":false,"managedReviews":5,"metaActions":false,"aiContentGeneration":false,"autoUpdateReviews":false,"numberOfEntries":10,"emailNotifications":false,"fileuploadField":false,"signatureField":false,"goalField":false,"webhooks":false,"numberOfVotes":10,"showCommentsPerWebsite":false,"showCommentsPerPath":false,"numberOfSources":1,"numberOfPosts":8,"mixedFeed":false,"tickerAnimation":false,"autoRefresh":false,"contentEditor":false,"autoUpdateFeedsMinutesInterval":0,"premiumSkins":false,"tooltips":false,"floatingHeaders":false,"floatingColumn":false,"sorting":false,"search":false,"pagination":false,"numberOfRows":8,"numberOfColumns":4,"billingCycles":false,"numberOfPlans":3,"numberOfCells":5,"basicCharts":true,"advancedCharts":false,"3dCharts":false,"numberOfSerieses":1,"numberOfDataRows":10,"showSearch":false,"showDownloadButton":false,"requireEmail":false,"numberOfOrders":15,"customFields":false,"showPerformanceComparison":false,"numberOfTranslationRequests":10,"numberOfMonthlyAIMessages":50,"numberOfAIContentItems":5,"planName":"Free","planAppId":"af9b2626-568d-4dbf-ac5f-15e6e86966d6"},"fonts":[]},"meta":{"name":"Countup","icon":"https://website-assets.commoninja.com/distribution/1700143197287_count-up-clock-icon.png","type":"countup","slug":"countup","serviceName":"countupninja"}},"__N_SSP":true},"page":"/lp/[...pathname]","query":{"pathname":["156d4afc-76d2-4a5b-978f-cd1cd682f17a"]},"buildId":"HhZRVIatEa5dKHPebeSsR","assetPrefix":"https://www.commoninja.com/apps","isFallback":false,"isExperimentalCompile":false,"dynamicIds":[2549],"gssp":true,"scriptLoader":[]}</script>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJGB8PP" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript><noscript>You need to enable JavaScript to run this
+    app.</noscript>
+</body>
+
+</html>
